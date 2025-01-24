@@ -1,0 +1,5 @@
+Cor de texto principal: #AB27F2
+Cor de fundo: #16061F
+cor adicional: #6879E8
+Adicional roxo: #A224E0
+adicional azul: #0A0C16
