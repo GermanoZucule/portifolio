@@ -83,6 +83,10 @@ header .nome {
   transition: 0.2s ease-in-out;
 }
 
+header nav img {
+  display: none;
+}
+
 header nav ul {
   display: flex;
   align-items: center;
@@ -104,6 +108,9 @@ header nav ul a:hover {
   border-bottom: 0.125rem solid #a224e0;
   opacity: 1;
   zoom: 1.01;
+}
+.hidden {
+  display: none;
 }
 
 .escrolagem,
@@ -515,6 +522,7 @@ header nav ul a:hover {
 }
 .projectos .allprojects {
   display: flex;
+  flex-wrap: wrap;
   gap: 100px;
   justify-content: center;
   align-items: center;

@@ -1,0 +1,272 @@
+@media (max-width: 800px) {
+  body {
+    overflow-x: hidden;
+  }
+  header {
+    display: flex;
+    width: 100%;
+    height: 70px;
+    justify-content: space-between;
+    padding: 20px;
+    position: fixed;
+    top: 0px;
+  }
+  header .nome {
+    font-size: 1.75rem;
+    font-weight: extrabold;
+  }
+
+  header nav ul {
+    display: none;
+  }
+  header nav img {
+    display: flex;
+    width: 1.25rem;
+    position: relative;
+    z-index: 80;
+  }
+  .hamburguer {
+    background: rgba(0, 0, 0, 1);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0px;
+    left: 49%;
+    width: 200px;
+    height: auto;
+    padding: 50px;
+
+    border-radius: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    z-index: 4;
+  }
+  .hidden {
+    display: none;
+  }
+
+  .hamburguer ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    list-style: none;
+    margin-top: 20px;
+  }
+  .hamburguer ul a {
+    text-decoration: none;
+    color: #fff;
+    opacity: 0.4;
+    font-size: 1.25rem;
+    font-weight: lighter;
+    font-weight: 200;
+    transition: 0.5s ease-out;
+  }
+  /* Apresentação */
+  .calltoaction {
+    margin-top: 12.25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70dvh;
+  }
+  .apresentacao {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    animation: apareca 2s ease-in-out;
+    flex-direction: column-reverse;
+    justify-content: center;
+    margin-top: -89px;
+  }
+
+  .apresentacao .imagem {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .apresentacao .imagem img {
+    width: 258px;
+  }
+  .apresentacao .texto {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100dvw;
+    gap: 3.063rem;
+    margin: 0;
+    padding: 0;
+  }
+
+  .apresentacao .texto h3 {
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: -10px;
+    overflow: visible;
+    animation: none;
+  }
+
+  .apresentacao .texto h1 {
+    display: flex;
+    font-size: 24px;
+    justify-content: center;
+
+    overflow: visible;
+    border: none;
+    animation: none;
+  }
+
+  .apresentacao .texto h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    overflow: visible;
+    margin-top: 24px;
+    animation: none;
+  }
+  .apresentacao .texto p {
+    display: flex;
+    font-size: 14px;
+    justify-content: center;
+    margin-top: 5px;
+    overflow: visible;
+    animation: none;
+  }
+
+  .apresentacao .texto button {
+    width: 7.125rem;
+    max-width: 9.125rem;
+    height: 3.125rem;
+    background: transparent;
+    padding: 0.938rem 1.25rem;
+    border-radius: 0.313rem;
+    text-align: center;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* Sobre */
+
+  .sobre {
+    padding-top: 5.625rem;
+    padding-left: 0;
+    gap: 0.438rem;
+    margin-bottom: 9.375rem;
+  }
+  .sobre h1 {
+    font-size: 22px;
+    margin-left: 20px;
+  }
+  .sobre div {
+    padding: 0.625rem 50px 10px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  /* HAbilidades */
+
+  .habilidades {
+    display: flex;
+    flex-direction: row;
+    padding-top: 90px;
+    padding-left: 20px;
+  }
+  .habilidades .imagens {
+    position: relative;
+    top: 90px;
+  }
+  .habilidades h1 {
+    font-size: 22px;
+  }
+
+  .habilidades svg {
+    width: 30px;
+    animation: infini 2s steps(2, end);
+    animation-delay: 4s;
+  }
+  .habilidades div p {
+    font-size: 15px !important;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .habilidades div:nth-child(1) {
+    margin-left: -184px;
+    margin-bottom: 20px;
+  }
+  .habilidades div:nth-child(2),
+  .habilidades div:nth-child(4) {
+    margin-right: -116px;
+  }
+
+  .habilidades div:nth-child(4) {
+    margin-top: 40px;
+  }
+  .habilidades div:nth-child(3) {
+    margin-right: -342px;
+  }
+
+  .habilidades div:nth-child(5) {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    margin-left: -71px;
+    margin-top: 40px;
+  }
+  .habilidades .content {
+    font-size: 12px;
+    font-weight: lighter;
+    width: 450px;
+    position: relative;
+    left: 29px;
+    top: 276px;
+  }
+  .habilidades #efeito {
+    width: 201px;
+    position: absolute;
+    top: 1662px;
+    right: 0;
+    z-index: -1;
+    opacity: 70%;
+  }
+
+  /* Projectos */
+  .projectos {
+    width: 100dvw;
+    height: auto;
+    padding-top: 90px;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    margin-top: 100px;
+  }
+
+  .projectos h1 {
+    font-size: 22px;
+    padding-left: 20px;
+  }
+
+  /* COntacte */
+
+  .rodape #footerefeito {
+    width: 90px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    opacity: 30%;
+  }
+  .rodape #footerefeito1 {
+    width: 90px;
+    position: absolute;
+    bottom: 189px;
+    right: 0;
+    opacity: 70%;
+  }
+}
