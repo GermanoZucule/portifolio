@@ -112,6 +112,9 @@ header nav ul a:hover {
 .hidden {
   display: none;
 }
+.imghidden {
+  display: none;
+}
 
 .escrolagem,
 .escrolagem1,
