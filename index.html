@@ -33,7 +33,7 @@
           <li><a href="#contacto">Contacto</a></li>
         </ul>
       </nav>
-      <div class="hamburguer hidden">
+      <div class="hamburguer hiddenli hidden">
         <ul>
           <li><a href="#sobre">Sobre-mim</a></li>
           <li><a href="#habilidades">habilidades</a></li>
@@ -259,7 +259,7 @@
             <img src="./img/Brevimente.png" alt="blog" />
           </div>
           <div class="paragrafo">
-            <h2>Brevimente</h2>
+            <h2>Breviemente</h2>
             <p>Actualizando...</p>
           </div>
         </div>
@@ -271,8 +271,8 @@
             <img src="./img/Brevimente.png" alt="blog" />
           </div>
           <div class="paragrafo">
-            <h2>Brevimente</h2>
-            <p>Actualizando...</p>
+            <h2>Brevemente</h2>
+            <p>Atualizando...</p>
           </div>
         </div>
 
@@ -280,11 +280,11 @@
         <div class="project escrolagem3">
           <div class="img">
             <p class="ver">Ver Projecto</p>
-            <img src="./img/Brevimente.png" alt="blog" />
+            <img src="./img/Brevemente.png" alt="blog" />
           </div>
           <div class="paragrafo">
-            <h2>Brevimente</h2>
-            <p>Actualizando...</p>
+            <h2>Brevemente</h2>
+            <p>Atualizando...</p>
           </div>
         </div>
       </article>
@@ -293,9 +293,70 @@
       <div class="btstyle">
         <button id="bt3">Ver mais</button>
       </div>
-      <p id="info">Em actualização dos projectos</p>
+      <p id="info">Em atualização dos projectos</p>
     </section>
     <!-- Fim da senção projectos -->
+
+    <!-- Formulario -->
+    <div class="formulario hhdd" id="formulario">
+      <div class="conteiner-closs">
+        <p class="closs">x</p>
+      </div>
+      <form id="my-form" action="https://formspree.io/f/xgvorege" method="POST">
+        <div>
+          <label for="nome">Nome</label>
+          <input
+            type="text"
+            name="nome"
+            id="nome"
+            placeholder="Nome"
+            required
+          />
+        </div>
+        <div>
+          <label for="email">Email</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="E-mail"
+            required
+          />
+        </div>
+        <div>
+          <label for="telefone">Celular</label>
+          <input
+            type="tel"
+            name="telefone"
+            id="telefone"
+            placeholder="+DD 870000000"
+            title="O formato deve ser: (id do pais) 870000000"
+          />
+        </div>
+        <div>
+          <label for="mensagem">Mensagem</label>
+          <textarea
+            name="mensagem"
+            id="mensagem"
+            placeholder="Escreve aqui"
+            required
+          ></textarea>
+        </div>
+        <div>
+          <button class="botao" id="my-form-button" type="submit">
+            Enviar
+          </button>
+        </div>
+        <p id="my-form-status"></p>
+      </form>
+    </div>
+    <!-- fim -->
+
+    <!-- Botao whatsap -->
+    <div class="flutuante">
+      <i></i>
+    </div>
+    <!-- fim -->
 
     <!-- Rodapé e contacto -->
     <footer id="contacto" class="rodape">
@@ -378,12 +439,8 @@
           </a>
         </div>
 
-        <div class="campotext">
-          <a
-            href="mailto:gr.zucule@gmail.com"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+        <div class="campotext abre">
+          <a target="" rel="noopener noreferrer">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -405,7 +462,7 @@
           </a>
         </div>
       </article>
-      <h2>Idealizando o futuro</h2>
+      <h2 onmousedown="aparece()">Idealizando o futuro</h2>
       <p class="direitos">
         &copy;Germano Fernando Zucule 2025 | Em busca do conhecimento
       </p>
@@ -424,5 +481,8 @@
     </footer>
     <script src="script.js"></script>
     <script src="css.js"></script>
+    <!-- <script src="formulário.js"></script> -->
+    <script src="ações.js"></script>
+    <script src="sendmail.js"></script>
   </body>
 </html>
