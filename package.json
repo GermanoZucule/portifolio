@@ -1,0 +1,24 @@
+{
+  "name": "portifolio",
+  "version": "1.0.0",
+  "description": "Portfolio website for Germano Zucule - Front-End Developer",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx serve .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GermanoZucule/portifolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GermanoZucule/portifolio/issues"
+  },
+  "homepage": "https://github.com/GermanoZucule/portifolio#readme",
+  "dependencies": {
+    "@vercel/analytics": "^2.0.1"
+  }
+}
